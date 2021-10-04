@@ -1,13 +1,13 @@
 import requests
 
 cities = [
-    "Лондон", 
-    "Шереметьево", 
+    "Лондон",
+    "Шереметьево",
     "Череповец"
     ]
 options = {
-    "mnTq":"",
-    "lang":"ru"
+    "mnTq": "",
+    "lang": "ru"
     }
 
 for town in cities:
