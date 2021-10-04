@@ -1,7 +1,14 @@
 import requests
 
-cities = ["Лондон", "Шереметьево", "Череповец"]
-options = {"mnTq":"","lang":"ru"}
+cities = [
+    "Лондон", 
+    "Шереметьево", 
+    "Череповец"
+    ]
+options = {
+    "mnTq":"",
+    "lang":"ru"
+    }
 
 for town in cities:
     response = requests.get(url=f"https://wttr.in/{town}", params=options)
